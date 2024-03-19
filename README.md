@@ -7,7 +7,7 @@
 - TENTATIVE (only if i know how to do it) each click = inc. in money, can use to buy fertilizer, pesticides, etc. that will speed up the growing proccess? OR money can be used to buy decorations: garden gnomes, birdbaths, etc.
 - can't buy diff. flowers/plants, have to click through the different series (basic flowers, herbs, vegetables, fruits, exotic plants)
 - little garden fairies that give encouraging messages throughout the game (can be random or with each plant, probably latter)
-- need to create different classes for each plant series, perhaps consummables if i'm doing them, fairies (timer? if they show up at random/specific time)
+- need to create different classes for each plant series (or condense into one: diff series = int, rotate between displays), perhaps consummables if i'm doing them, fairies (timer? if they show up at random/specific time)
 - methods for game starting, ending, finished growing, new plant, when the fairies would appear
 
 **To-Do List (Code):**
