@@ -15,6 +15,7 @@
 - Start coding for the first plant series and main
 - Find out where to create graphics
 
-# UML/Class Diagram
+## UML/Class Diagram
+![UML](https://github.com/emmitan/IndividualProject/blob/main/images/individualUML.png?raw=true)
 
-# GUI
+## GUI
