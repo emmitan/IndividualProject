@@ -5,7 +5,7 @@ pygame.init()
 start = False
 screen = pygame.display.set_mode([500,700])
 pygame.display.set_caption("Bloom")
-#bg = pygame.image.load("bg.png")
+#bg = pygame.image.load("sbg.png")
 #bg = pygame.transform.scale(bg, (500,700))
 #screen.blit(bg, (0,0))
 pygame.display.flip()
@@ -17,12 +17,17 @@ while running:
     start = True
 
   if start == True:
-    
-    pass
+    #bg = pygame.image.load("lbg.png")
+    #bg = pygame.transform.scale(bg, (500,700))
+    #screen.blit(bg, (0,0))
+    pygame.display.flip()
 
   else:
     start = False
-    pass
+    #bg = pygame.image.load("sbg.png")
+    #bg = pygame.transform.scale(bg, (500,700))
+    #screen.blit(bg, (0,0))
+    pygame.display.flip()
 
 for event in pygame.event.get():
     if event.type == pygame.QUIT:
