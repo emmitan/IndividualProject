@@ -14,4 +14,4 @@
 ![UML](https://github.com/emmitan/IndividualProject/blob/main/images/individualUML.png?raw=true)
 
 ## GUI
-![GUI](https://github.com/emmitan/IndividualProject/blob/main/images/GUI.jpeg?raw=true)
+![GUI](https://github.com/emmitan/IndividualProject/blob/main/images/UMLupdate.png?raw=true)
