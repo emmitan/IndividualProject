@@ -1,9 +1,9 @@
 # Bloom
 
-**About**: A simple, fun, and relaxing game, where you grow different plants to create a garden in a clicker-game based style. Each new 'level' will bring you to a new series of plants (basic flowers, herbs, vegetables, fruits, and exotic plants) that takes you a step closer to completing your garden.
+A cozy clicker-based game where you are tasked to grow different plants for the house fairies.
 
 **To-Do List (Code):**
-- Create classes for: different plant series, garden decorations (money), fairies
+- Create classes for: different plant series, fairies
 - Start coding for the first plant series and main
 - Find out where to create graphics
 
