@@ -12,7 +12,6 @@ screen.blit(bg, (0, 0))
 pygame.display.flip()
 
 running = True
-
 while running:
   if pygame.key.get_pressed()[pygame.K_SPACE]:
     start = True
@@ -27,8 +26,8 @@ while running:
     screen.blit(bg, (0, 0))
     pygame.display.flip()
 
-for event in pygame.event.get():
-  if event.type == pygame.QUIT:
-    running = False
+  for event in pygame.event.get():
+    if event.type == pygame.QUIT:
+      running = False
 
 pygame.quit()
