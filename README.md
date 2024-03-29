@@ -14,4 +14,4 @@ A cozy clicker-based game where you are tasked to grow different plants for the 
 ![UML](https://github.com/emmitan/IndividualProject/blob/main/images/UMLupdate.png?raw=true)
 
 ## GUI
-![GUI](https://github.com/emmitan/IndividualProject/blob/main/images/UMLupdate.png?raw=true)
+![GUI](https://github.com/emmitan/IndividualProject/blob/main/images/GUI.jpeg?raw=true)
