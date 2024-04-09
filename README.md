@@ -1,4 +1,5 @@
 # Bloom
+Created by Emily Tan.
 
 A cozy clicker-based game where you are tasked to grow different plants for the house fairies.
 
