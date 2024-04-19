@@ -5,11 +5,12 @@ from plant import Plant
 pygame.init()
 
 start = False
-screen = pygame.display.set_mode([500, 700])
+screen = pygame.display.set_mode([700, 500])
 pygame.display.set_caption("Bloom")
 bg = pygame.image.load("sbgFiller.jpg")
-bg = pygame.transform.scale(bg, (500, 700))
+bg = pygame.transform.scale(bg, (700, 500))
 screen.blit(bg, (0, 0))
+# Create an instance of the Plant class
 p = Plant(0, 0)
 pygame.display.flip()
 
@@ -21,15 +22,16 @@ while running:
 
   if start == True:
     bg = pygame.image.load("lbgFiller.jpg")
-    bg = pygame.transform.scale(bg, (500, 700))
+    bg = pygame.transform.scale(bg, (700, 500))
     screen.blit(bg, (0, 0))
-    p.display()
+    # Call the display method of the Plant class
+    p.display(100, 100)
     pygame.display.flip()
 
   else:
     start = False
     bg = pygame.image.load("sbgFiller.jpg")
-    bg = pygame.transform.scale(bg, (500, 700))
+    bg = pygame.transform.scale(bg, (700, 500))
     screen.blit(bg, (0, 0))
     pygame.display.flip()
 
