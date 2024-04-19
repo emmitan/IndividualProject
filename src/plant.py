@@ -1,10 +1,6 @@
 import pygame
 
 pygame.init()
-surface = pygame.display.get_surface()
-col = (255, 255, 255)
-center = (surface.get_width() / 2, surface.get_height() / 2)
-radius = 5
 
 class Plant:
   def __init__(self, x, y):
@@ -15,8 +11,8 @@ class Plant:
     
 
   def display(self):
-    pygame.draw.circle(surface, col, center, radius)
-
+    plant = pygame.image.load("plant.png")
+    pygame.transform.scale(plant, (50,50))
   def clicks(self):
     clicks = 0
     clicks += 1
