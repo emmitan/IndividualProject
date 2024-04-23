@@ -5,12 +5,12 @@ from plant import Plant
 pygame.init()
 
 start = False
+clicks = 0
 screen = pygame.display.set_mode([700, 500])
 pygame.display.set_caption("Bloom")
 bg = pygame.image.load("sbgFiller.jpg")
 bg = pygame.transform.scale(bg, (700, 500))
 screen.blit(bg, (0, 0))
-# Create an instance of the Plant class
 p = Plant(0, 0)
 pygame.display.flip()
 
@@ -24,7 +24,6 @@ while running:
     bg = pygame.image.load("lbgFiller.jpg")
     bg = pygame.transform.scale(bg, (700, 500))
     screen.blit(bg, (0, 0))
-    # Call the display method of the Plant class
     p.display(100, 100)
     pygame.display.flip()
 
@@ -38,5 +37,10 @@ while running:
   for event in pygame.event.get():
     if event.type == pygame.QUIT:
       running = False
+    if event.type == pygame.MOUSEBUTTONDOWN:
+      #mouse_pos = pygame.mouse.get_pos()
+      #if p.x < mouse_pos[0] < p.x + 100 and p.y < mouse_pos[1] < p.y + 100:
+        clicks += 1
+        print("clicks: ", clicks)
 
 pygame.quit()
