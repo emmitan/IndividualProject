@@ -4,8 +4,9 @@ Created by Emily Tan.
 A cozy clicker-based game where you are tasked to grow different plants for the house fairies.
 
 **To-Do List (Code):**
-- Create classes for: different plant series, fairies
-- Start coding for the first plant series and main
+- Create method to count clicks
+- Display method for fairy
+- Update UML
 - Find out where to create graphics
 
 **References:** videos, links, etc.
