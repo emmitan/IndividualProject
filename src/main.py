@@ -1,6 +1,6 @@
 import pygame
 from plant import Plant
-#from fairy import Fairy
+from fairy import Fairy
 
 pygame.init()
 
@@ -12,6 +12,7 @@ bg = pygame.image.load("sbgFiller.jpg")
 bg = pygame.transform.scale(bg, (700, 500))
 screen.blit(bg, (0, 0))
 p = Plant(0, 0)
+f = Fairy(0, 0, 0, 0)
 pygame.display.flip()
 
 running = True
@@ -38,9 +39,11 @@ while running:
     if event.type == pygame.QUIT:
       running = False
     if event.type == pygame.MOUSEBUTTONDOWN:
-      #mouse_pos = pygame.mouse.get_pos()
-      #if p.x < mouse_pos[0] < p.x + 100 and p.y < mouse_pos[1] < p.y + 100:
+      mouse_pos = pygame.mouse.get_pos()
+      if p.x < mouse_pos[0] < p.x + 100 and p.y < mouse_pos[1] < p.y + 100:
         clicks += 1
         print("clicks: ", clicks)
-
+      if clicks == 5:
+        #f.display(0, 0)
+        pass
 pygame.quit()
