@@ -5,7 +5,7 @@ A cozy clicker-based game where you are tasked to grow different plants for the 
 
 **To-Do List (Code):**
 - Display method for fairy
-- Update UML
+- Fix clicks method: can only take in if mouse is touching plant
 - Find out where to create graphics
 
 **References:** videos, links, etc.
