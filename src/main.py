@@ -12,7 +12,7 @@ bg = pygame.image.load("sbgFiller.jpg")
 bg = pygame.transform.scale(bg, (700, 500))
 screen.blit(bg, (0, 0))
 p = Plant(0, 0)
-f = Fairy(0, 0, 0, 0)
+f = Fairy(0, 0, 0)
 pygame.display.flip()
 
 running = True
@@ -44,6 +44,5 @@ while running:
         clicks += 1
         print("clicks: ", clicks)
       if clicks == 5:
-        #f.display(0, 0)
-        pass
+        f.display(f.x, f.y)
 pygame.quit()
