@@ -8,14 +8,22 @@ class Fairy:
 
   def display(x, y):
     #load imgs
-    #f1 = pygame.image.load("fairy.png")
-    #f1 = pygame.transform.scale(f1, (50,50))
-    #f2 = pygame.image.load("fairy.png")
-    #f2 = pygame.transform.scale(f2, (50,50))
-    #f3 = pygame.image.load("fairy.png")
-    #f3 = pygame.transform.scale(f3, (50,50))
+    #jerry = pygame.image.load("jerry.png")
+    #jerry = pygame.transform.scale(jerry, (50,50))
+    #thimble = pygame.image.load("thimble.png")
+    #thimble = pygame.transform.scale(thimble, (50,50))
+    #petunia = pygame.image.load("petunia.png")
+    #petunia = pygame.transform.scale(petunia, (50,50))
 
     #display imgs
+    #screen.blit(jerry, (x, y))
+    #screen.blit(thimble, (x, y))
+    #screen.blit(petunia, (x, y))
+    #pygame.display.flip()
 
+    #jerry: brownie, geraniums
+    #thimble: pixie, pansy
+    #petunia: gnome, petunia
+    
     #if imgs are with the plant
     pass
