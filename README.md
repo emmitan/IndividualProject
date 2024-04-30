@@ -12,7 +12,7 @@ A cozy clicker-based game where you are tasked to grow different plants for the 
 - [coding & counting clicks](https://www.youtube.com/watch?v=jXx3acg34S0)
 
 ## UML/Class Diagram
-![UML](https://github.com/emmitan/IndividualProject/blob/main/images/UMLupdate.png?raw=true)
+![UML](https://github.com/emmitan/IndividualProject/blob/main/images/UML0430.png?raw=true)
 
 ## GUI
 ![GUI](https://github.com/emmitan/IndividualProject/blob/main/images/GUI.jpeg?raw=true)
