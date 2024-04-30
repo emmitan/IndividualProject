@@ -3,7 +3,7 @@ Created by Emily Tan.
 
 A cozy clicker-based game where you are tasked to grow different plants for the house fairies.
 
-**To-Do List (Code):**
+**To-Do List:**
 - Fix clicks method: can only take in if mouse is touching plant & fairy display
 - Find out where to create graphics
 
