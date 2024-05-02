@@ -8,7 +8,9 @@ class Fairy:
 
   def __init__(self, x, y, speed):
     self.x, self.y, self.speed = x, y, speed
-
+    x = 0
+    y = 0
+  
   def display(self, x, y):
     self.x = x
     self.y = y
