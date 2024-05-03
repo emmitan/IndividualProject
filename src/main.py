@@ -40,9 +40,11 @@ while running:
       running = False
     if event.type == pygame.MOUSEBUTTONDOWN:
       mouse_pos = pygame.mouse.get_pos()
-      if p.x < mouse_pos[0] < p.x + 100 and p.y < mouse_pos[1] < p.y + 100:
+      #if p.x < mouse_pos[0] < p.x + 100 and p.y < mouse_pos[1] < p.y + 100:
+      if p.x == mouse_pos[0] and p.y == mouse_pos[1]:
         clicks += 1
         print("clicks: ", clicks)
       if clicks == 5:
-        f.display(f.x, f.y)
+        #f.display(f.x, f.y)
+        pass
 pygame.quit()
