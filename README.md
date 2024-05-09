@@ -7,5 +7,5 @@ A prompt generator for writing and art.
 - Update UML and make GUI
 
 ## UML/Class Diagram
-
+![UML](https://github.com/emmitan/IndividualProject/blob/main/images/UML.png?raw=true)
 ## GUI
