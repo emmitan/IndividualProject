@@ -1,7 +1,7 @@
 print("Welcome! Please enter a character's name: ")
 character = input()
 
-print("What kind of setting would you like? A for murder mystery, B for science fiction, C for fantasy: ")
+print("What kind of setting would you like? A for murder mystery, B for science fiction, C for fantasy. ")
 letter = input()
 if letter == "A":
   print("You've chosen murder mystery.")
