@@ -1,4 +1,4 @@
-# MEOWMEOW
+# name tbd
 Created by Emily Tan.
 
 A prompt generator for writing and art.
