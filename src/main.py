@@ -1,49 +1,17 @@
-import pygame
-from plant import Plant
-from fairy import Fairy
+print("Welcome! Please enter a character's name: ")
+character = input()
 
-pygame.init()
-
-start = False
-clicks = 0
-screen = pygame.display.set_mode([700, 500])
-pygame.display.set_caption("Bloom")
-bg = pygame.image.load("sbgFiller.jpg")
-bg = pygame.transform.scale(bg, (700, 500))
-screen.blit(bg, (0, 0))
-p = Plant(0, 0)
-f = Fairy(0, 0, 0)
-pygame.display.flip()
-
-running = True
-
-while running:
-  if pygame.key.get_pressed()[pygame.K_SPACE]:
-    start = True
-
-  if start == True:
-    bg = pygame.image.load("lbgFiller.jpg")
-    bg = pygame.transform.scale(bg, (700, 500))
-    screen.blit(bg, (0, 0))
-    p.display(100, 100)
-    pygame.display.flip()
-
-  else:
-    start = False
-    bg = pygame.image.load("sbgFiller.jpg")
-    bg = pygame.transform.scale(bg, (700, 500))
-    screen.blit(bg, (0, 0))
-    pygame.display.flip()
-
-  for event in pygame.event.get():
-    if event.type == pygame.QUIT:
-      running = False
-    if event.type == pygame.MOUSEBUTTONDOWN:
-      mouse_pos = pygame.mouse.get_pos()
-      if p.x == mouse_pos[0] < p.x + 100 and p.y == mouse_pos[1] < p.y + 100:
-        #if p.x == mouse_pos[0] and p.y == mouse_pos[1]:
-        clicks += 1
-        print("clicks: ", clicks)
-        if clicks == 5:
-          f.display(f.x, f.y)
-pygame.quit()
+print("What kind of setting would you like? A for murder mystery, B for science fiction, C for fantasy: ")
+letter = input()
+if letter == "A":
+  print("You've chosen murder mystery.")
+if letter == "B":
+  print("You've chosen science fiction.")
+if letter == "C":
+  print("You've chosen fantasy.")
+  
+print("How many prompts would you like? (please pick from 1-10): ")
+num = int(input())
+if num == 1:
+  print("You've chosen 1 prompt.")
+    
