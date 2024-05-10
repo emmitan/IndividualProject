@@ -1,8 +1,7 @@
 class Mystery:
 
-  def __init__(self, name, num):
-    self.name = name
-    self.num = num
+  def __init__(self):
+    self.self = self
 
   def prompts(self):
     name = input("Enter a character name: ")
