@@ -7,13 +7,21 @@ class Mystery:
     name = input("Enter a character name: ")
 
     prompts = [
-        "prompt 1", "prompt 2", "prompt 3", "prompt 4", "prompt 5", "prompt 6",
-        "prompt 7", "prompt 8", "prompt 9", "prompt 10"
+        "prompt 1",
+        "prompt 2",
+        "prompt 3",
+        "prompt 4",
+        "prompt 5",
+        "prompt 6",
+        "prompt 7",
+        "prompt 8",
+        "prompt 9", 
+        "prompt 10"
     ]
 
     print("Which prompt would you like? (please pick from 1-10): ")
     num = int(input())
-    if num > 10:
+    if num > 10 or num < 1:
       num = int(
           input(
               "Your number exceeds the limit. Please pick a number from 1-10: "
