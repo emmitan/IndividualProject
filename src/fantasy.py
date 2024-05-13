@@ -7,16 +7,16 @@ class Fantasy:
     name = input("Enter a character name: ")
 
     prompts = [
-      "prompt 1",
-      "prompt 2",
-      "prompt 3",
-      "prompt 4",
-      "prompt 5",
-      "prompt 6",
-      "prompt 7",
-      "prompt 8",
-      "prompt 9",
-      "prompt 10"
+        "creates a portal to another world, awakening a monster whose purpose is to eat people alive.",
+        "enters an enchanted forest, not knowing that no one has ever come out of it alive.",
+        "finds out they're the heir to the kingdom that killed their family.",
+        "is sent on a mission to kill the Dragon King.",
+        "discovers that an old lullaby is actually the directions to another world.",
+        "is a painter, who has the power to bring their pieces to life.",
+        "has dinner with a group of ghosts and half-alive characters every week.",
+        "is a bounty hunter, not knowing that they are being hunted as well.",
+        "finds a magic clock that can turn back time.",
+        "is a wizard, who has the power to make anything they want happen."
     ]
 
     print("Which prompt would you like? (please pick from 1-10): ")
@@ -24,8 +24,8 @@ class Fantasy:
     if num > 10 or num < 1:
       num = int(
           input(
-            "Your number exceeds the limit. Please pick a number from 1-10: "
-        ))
+              "Your number exceeds the limit. Please pick a number from 1-10: "
+          ))
     if num == 1:
       print("You've chosen prompt #1.")
       print(name + " " + prompts[0])
@@ -39,7 +39,7 @@ class Fantasy:
       print(name + " " + prompts[2])
       return prompts
     if num == 4:
-      print("You've chosen promtp #4.")
+      print("You've chosen prompt #4.")
       print(name + " " + prompts[3])
       return prompts
     if num == 5:
