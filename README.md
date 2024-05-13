@@ -1,4 +1,4 @@
-# name tbd
+# Prompt Generator
 Created by Emily Tan.
 
 A prompt generator for writing and art.
