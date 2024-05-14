@@ -6,12 +6,13 @@ fantasy = Fantasy()
 mystery = Mystery()
 scifi = Scifi()
 
+print("Welcome to the prompt generator!")
 print(
-    "What kind of setting would you like? A for murder mystery, B for science fiction, C for fantasy: "
+    "What kind of setting would you like? A for mystery, B for science fiction, C for fantasy: "
 )
 letter = input()
 if letter == "A" or letter == "a":
-  print("You've chosen murder mystery.")
+  print("You've chosen mystery.")
   mystery.prompts()
 if letter == "B" or letter == "b":
   print("You've chosen science fiction.")
