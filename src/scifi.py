@@ -7,16 +7,16 @@ class Scifi:
     name = input("Enter a character name: ")
 
     prompts = [
-    "prompt 1",
-    "prompt 2",
-    "prompt 3",
-    "prompt 4",
-    "prompt 5",
-    "prompt 6",
-    "prompt 7",
-    "prompt 8",
-    "prompt 9",
-    "prompt 10"
+      "lands on a deserted planet inhabited by sentient robots.",
+      "discovers a hidden government program that allows them to control time.",
+      "is a hacker, who discovers evidence of an alien invasion.",
+      "awakens from cryosleep after centuries to find a utopian society gone wrong.",
+      "invents a device that allows them teleportation abilities.",
+      "must fly to another planet lightyears away to save their dying home planet.",
+      "becomes the last human survivor on Earth after a devastating alien attack.",
+      "discovers they are a clone created by a powerful corporation.",
+      "embarks on a mission to terraform a hostile planet into a new home for humanity.",
+      "befriends a sentient AI that holds the key to unlocking the secrets of the universe."
     ]
 
     print("Which prompt would you like? (please pick from 1-10): ")
@@ -24,8 +24,8 @@ class Scifi:
     if num > 10 or num < 1:
       num = int(
           input(
-          "Your number exceeds the limit. Please pick a number from 1-10: "
-      ))
+              "Your number exceeds the limit. Please pick a number from 1-10: "
+          ))
     if num == 1:
       print("You've chosen prompt #1.")
       print(name + " " + prompts[0])
