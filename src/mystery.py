@@ -7,16 +7,16 @@ class Mystery:
     name = input("Enter a character name: ")
 
     prompts = [
-        "prompt 1",
-        "prompt 2",
-        "prompt 3",
-        "prompt 4",
-        "prompt 5",
-        "prompt 6",
-        "prompt 7",
-        "prompt 8",
-        "prompt 9", 
-        "prompt 10"
+      "is a detective investigating a case of missing people, not knowing that the culprit's next victim is them.",
+      "is framed for stealing a painting, so now they have to prove their innocence.",
+      "discovers a hidden message in an old manuscript that leads them on a dangerous treasure hunt.",
+      "wakes up with amnesia in a locked room, with no memory of who they are and how they got there.",
+      "witnesses a murder and becomes the target of the killer, who will stop at nothing to silence them.",
+      "inherits a haunted mansion and must uncover the secrets within its walls to break the curse.",
+      "is trapped in a time loop, reliving the same day over and over until they solve the mystery behind it.",
+      "receives a series of cryptic riddles that lead them closer to the truth about a dark conspiracy.",
+      "has been planting false evidence at crime scenes for years. Why?",
+      "suddenly becomes the center of a missing person case, and must solve the mystery of who is behind it.",
     ]
 
     print("Which prompt would you like? (please pick from 1-10): ")
