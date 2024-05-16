@@ -22,10 +22,7 @@ class Fantasy:
     print("Which prompt would you like? (please pick from 1-10): ")
     num = int(input())
     if num > 10 or num < 1:
-      num = int(
-          input(
-              "Your number exceeds the limit. Please pick a number from 1-10: "
-          ))
+      num = int(input("Your number exceeds the limit. Please pick a number from 1-10: "))
     if num == 1:
       print("You've chosen prompt #1.")
       print(name + " " + prompts[0])
